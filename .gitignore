@@ -1,0 +1,12 @@
+vendor/kodi-repos/repos/
+vendor/kodi-repos/plugins/
+!vendor/kodi-repos/manifest.json
+__pycache__/
+*.pyc
+.pytest_cache/
+.pix
+.pixi/
+*.egg-info/
+dist/
+build/
+.venv/

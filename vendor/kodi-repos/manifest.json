@@ -1,0 +1,54 @@
+{
+  "repos": {
+    "redwizard": {
+      "repo_zip": "https://repo.redwizard.xyz/repository.redwizard-1.2.2.zip",
+      "repo_zip_sha256": "967f93b8c678f5356799a63f32b41eb67b8ef810c6ba3cf48e89e778afd8c103",
+      "addons_xml": "https://repo.redwizard.xyz/redwizardrepo/main/addons.xml",
+      "plugins": {
+        "plugin.video.gratisred": {
+          "version": "1.3.2",
+          "zip_url": "https://repo.redwizard.xyz/redwizardrepo/main/plugin.video.gratisred/plugin.video.gratisred-1.3.2.zip",
+          "zip_sha256": "fc6cc00fa9b82f8ca89106bac63300b7a2d142632a80318b20b0d3217958d74a",
+          "extracted": "vendor/kodi-repos/plugins/plugin.video.gratisred-1.3.2"
+        }
+      }
+    },
+    "jewrepo": {
+      "repo_zip": "https://jewbmx.github.io/repository.jewrepo-1.6.0.zip",
+      "repo_zip_sha256": "588660ff242702618ea26f9487cac9782d02b7137f54cc79866b0d560842fde9",
+      "addons_xml": "https://raw.githubusercontent.com/jewbmx/repo/master/addons.xml",
+      "plugins": {
+        "plugin.video.scrubsv2": {
+          "version": "5.1.42",
+          "zip_url": "https://raw.githubusercontent.com/jewbmx/repo/master/zips/plugin.video.scrubsv2/plugin.video.scrubsv2-5.1.42.zip",
+          "zip_sha256": "d7e0cd15f7e171c622f38d28674c400f047642f53676b0bf1add228de4015148",
+          "extracted": "vendor/kodi-repos/plugins/plugin.video.scrubsv2-5.1.42"
+        },
+        "script.module.resolveurl": {
+          "version": "5.1.208",
+          "zip_url": "https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/script.module.resolveurl/script.module.resolveurl-5.1.208.zip",
+          "zip_sha256": "34e3a2e8e9d342ab4894228dc431d5bfbde39408abbd6ffdf82aad9338a413f2",
+          "extracted": "vendor/kodi-repos/plugins/script.module.resolveurl-5.1.208"
+        }
+      }
+    },
+    "diggz": {
+      "repo_zip": "https://nebulous42069.github.io/diggz/Diggz_Repo.zip",
+      "repo_zip_sha256": "db198f85c361f02a07f389520328d9b5e9ce9fa75675f084f2ea3fac9735d98a",
+      "addons_xml": "https://raw.githubusercontent.com/nebulous42069/Omega/main/omega/zips/addons.xml",
+      "plugins": {
+        "plugin.video.free99": {
+          "version": "2.0.1",
+          "zip_url": "https://raw.githubusercontent.com/nebulous42069/Omega/main/omega/zips/plugin.video.free99/plugin.video.free99-2.0.1.zip",
+          "zip_sha256": "41f8598b0554e455b79b248a91ad0e630777c59a9767dd36c383431973f724af",
+          "extracted": "vendor/kodi-repos/plugins/plugin.video.free99-2.0.1"
+        }
+      }
+    }
+  },
+  "required_plugins": [
+    "plugin.video.gratisred",
+    "plugin.video.scrubsv2",
+    "plugin.video.free99"
+  ]
+}

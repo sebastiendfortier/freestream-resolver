@@ -1,0 +1,23 @@
+[workspace]
+name = "freestream-resolver"
+version = "0.1.0"
+description = "Scrubs-lineage stream resolver for FreeStream"
+channels = ["conda-forge"]
+platforms = ["linux-64", "win-64", "osx-64", "osx-arm64"]
+
+[dependencies]
+python = ">=3.12"
+httpx = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+
+[pypi-dependencies]
+freestream-resolver = { path = ".", editable = true }
+pytest = ">=8.0"
+
+[tasks]
+fetch-kodi = "python tools/fetch_kodi_plugins.py"
+verify-kodi = "python tools/fetch_kodi_plugins.py --verify"
+inventory = "python tools/inventory_scrapers.py"
+extract-tmdb = "python tools/extract_free99_tmdb_key.py --verify"
+test = "python -m pytest tests/ -q"
