@@ -8,13 +8,14 @@ import httpx
 
 from freestream_resolver.hoster_resolve import resolve_all
 from freestream_resolver.models import ResolvedStream, ScrapeRequest, StreamCandidate
+from freestream_resolver.sites.flixhq import FlixhqScraper
 from freestream_resolver.sites.levidia import LevidiaScraper
+from freestream_resolver.sites.vumoo import VumooScraper
 
-# Additional scrapers plug in here as they are ported.
-SCRAPERS = [LevidiaScraper]
+SCRAPERS = [LevidiaScraper, FlixhqScraper, VumooScraper]
 
 
-def collect_candidates(req: ScrapeRequest, timeout: float = 20.0) -> list[StreamCandidate]:
+def collect_candidates(req: ScrapeRequest, timeout: float = 60.0) -> list[StreamCandidate]:
     candidates: list[StreamCandidate] = []
 
     def run_scraper(scraper_cls: type) -> list[StreamCandidate]:
