@@ -13,6 +13,11 @@
 | v0.2-tv | StreamResolver + ONN 0.2.0 | freestream-tv | DONE |
 | v0.2-desktop | Windows MSI CI | freestream-database | DONE |
 | node-v0.2 | Integration gates ALL MET | .unlazy/freestream/GATES-v0.2.md | DONE |
+| v0.3-tv | Media rename + WCO removal + settings + ONN 0.3.0 | freestream-tv | DONE |
+| v0.3-resolver | 6 scrapers + playable resolve | freestream-resolver | DONE |
+| v0.3-database | Web genres/play + watch history | freestream-database | DONE |
+| v0.3-desktop | MSI CI green on v0.3.0 tag | freestream-database | DONE |
+| node-v0.3 | Integration gates ALL MET | .unlazy/freestream/GATES-v0.3.md | DONE |
 
 ## Dependencies
 
